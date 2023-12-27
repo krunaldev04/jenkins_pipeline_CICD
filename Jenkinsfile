@@ -5,7 +5,7 @@ pipeline {
         
         stage("code"){
             steps{
-                git url: "https://github.com/krunaldev04/jenkins_pipeline_CICD.git", branch: "master"
+                git url: "https://github.com/krunaldev04/jenkins_pipeline_CICD.git", branch: "main"
                 
             }
         }
